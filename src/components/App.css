@@ -1,0 +1,14 @@
+body{
+  text-align: center;
+  background: #000000;
+}
+
+.movieapp > .row {
+  overflow-x: auto;
+  flex-wrap: nowrap; 
+}
+
+.image-container{
+  position: relative; 
+  transition: transform 0.2s;
+}
